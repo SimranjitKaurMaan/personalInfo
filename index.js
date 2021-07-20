@@ -2,7 +2,7 @@ var readlineSync = require('readline-sync');
 var userName = readlineSync.question('What is your name? ');
 
 var score=0;
-console.log("Welcome to this game"+ userName)
+console.log("Welcome to this game "+ userName)
 
 console.log("\n ------------------------------------\n")
 
